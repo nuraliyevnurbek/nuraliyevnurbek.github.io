@@ -1,0 +1,97 @@
+	body{
+		background-image: url(../img/winter.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		margin: 0;
+		font-family: sans-serif;
+	}
+	h1{
+		color: white;
+		padding-left: 60px;
+		padding-top: 30px;
+		text-shadow: 4px 1px black;
+		font-size: 40px;
+		font-family: serif;
+	}
+	#Information img{
+		height: 400px;
+		width: 400px;
+		margin-left: 60px;
+		border-radius: 20px;
+		border-bottom: 5px solid white;
+		border-top: 5px solid white;
+	}	
+	#Information{
+		color: white;
+		height: 840PX;
+		background-image: url(../img/assossin.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		bottom: 0;
+	    position: relative;
+	}
+	#Information nav{
+		position: absolute;
+ 	    bottom: 0;
+  		left: 0;
+	}
+	#Information ul{
+		margin-top: 0;
+	}
+	#name{
+		font-size: 80px;
+	}
+	#hobby h1{
+		padding-left:600px;
+	}
+	p{
+		padding-left: 20px;
+	}
+	h2{
+		margin-left: 200px;
+		color: darkred;
+	}
+	blockquote{
+		padding-left: 40px;
+		max-width: 300px;
+	}
+	.menu{
+		text-shadow: 3px 2px white;
+		display: inline-block;
+		font-size: 45px;
+		padding: 15px
+	}
+	.menu a{
+		text-decoration: none;
+		color: darkred;
+	}
+	.menu:hover{
+		background-color: white;
+		border-radius: 15px;
+		font-size: 60px;
+
+	}
+    .grid-4{
+    	min-width: 400px;
+		color: white;
+		text-shadow: 0.5px 0.5px black;
+		font-size:20px;
+		padding-left:20px;
+		box-shadow: 4px 5px black;
+		border-radius: 10px;
+		display: inline-block;
+		width: 31%
+
+	}
+	footer{
+		text-align: center;
+		display: block;
+		bottom: 0;
+		width: 100%
+	}
+	footer p{
+		display: block;
+		color:rgb(0,0,0);
+		text-shadow: 1px 0px white;
+	}

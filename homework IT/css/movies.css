@@ -1,0 +1,85 @@
+body{	 
+		background-image: url(../img/galaxy.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		font-family: sans-serif;
+		margin: 0;
+	}
+	h1{
+		text-shadow: 3px 2px orange;
+	}
+	h2{
+		text-shadow: 4px 5px #ff3300;
+
+	}
+	#Information{
+		color: #ff9933;
+		font-size: 90px;
+		height: 800px;
+		background-image: url(../img/TOR.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	    position: relative;
+	    bottom: 0;
+	}
+	#Information nav{
+		position: absolute;
+ 	    bottom: 0;
+  		left: 0;
+	}
+	#Information ul{
+		margin-top: 0;
+		padding-left: 600px;
+	}
+
+	h1{
+		margin-left: 250px;
+		color: #ff3300;
+	}
+	 blockquote{
+		max-width: 184px;
+	}
+	.image{
+		width: 200px;
+		height: 200px;
+		bottom: 0;
+	}
+	.menu{
+		text-shadow: 5px 4px #ff3300;
+		display: inline-block;
+		font-size: 60px;
+	}
+	.menu a{s
+		text-decoration: none;
+		color: #ff9933;
+	}
+	.menu:hover{
+		background-color:darkred;
+		border-radius: 15px;
+		font-size: 60px;
+		padding-left: 15px;
+	}
+	.grid-4{
+		min-width: 260px;
+		color: #ff3300;
+		text-shadow: 0.5px 0.5px #ff9933;
+		border-radius: 10px;
+		box-shadow: 4px 4px #ff9933;
+		display: inline-block;
+		width: 300;
+		
+
+	}
+		footer{
+		text-align: center;
+		display: block;
+		bottom:0;
+		width: 100%
+	}
+	footer p{
+		display: block;
+		color: #ff3300;
+		text-shadow: 0.5px 0.5px #ff9933;
+		border-radius: 10px;
+	}
